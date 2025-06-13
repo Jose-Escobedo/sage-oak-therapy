@@ -1,7 +1,7 @@
-import HeroSection from "./components/HeroSection";
-import AboutSection from "./components/AboutSection";
-import SpecialtiesSection from "./components/SpecialtiesSection";
-import CTASection from "./components/CTASection";
+import HeroSection from "../components/HeroSection";
+import AboutSection from "../components/AboutSection";
+import SpecialtiesSection from "../components/SpecialtiesSection";
+import CTASection from "../components/CTASection";
 
 export default function HomePage() {
   return (

@@ -1,7 +1,10 @@
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const config = {
   content: [
-    "./src/**/*.{js,jsx,mdx}", 
+    "./**/*.{js,jsx,mdx}",
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
   ],
   theme: {
     extend: {
@@ -13,10 +16,11 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        serif: ['var(--font-playfair)', 'serif'], 
+        serif: ['Playfair Display', 'serif'],
       },
     },
   },
   plugins: [],
 };
 
+export default config;
