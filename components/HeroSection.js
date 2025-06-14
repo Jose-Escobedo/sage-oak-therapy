@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="py-24 px-6 text-center">
+    <section className="mt-36 md:mt-40 py-24 px-6 text-center">
       <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6">
         Welcome to Sage Oak Therapy
       </h1>

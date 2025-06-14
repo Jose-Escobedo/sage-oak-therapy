@@ -1,12 +1,121 @@
 @import "tailwindcss";
 
-body {
-  background-color: #FAF9F6;
-  color: #0A2540;
-  font-family: theme('fontFamily.sans'); 
+:root {
+  /* Colors */
+  --color-sage: #A8BBA1;
+  --color-oak: #6B4F3B;
+  --color-stone: #D8D8D8;
+  --color-forest: #2F4033;
+
+  /* Fonts */
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
 }
+
+/* Text Colors */
+.text-sage {
+  color: var(--color-sage);
+}
+
+.text-oak {
+  color: var(--color-oak);
+}
+
+.text-stone {
+  color: var(--color-stone);
+}
+
+.text-forest {
+  color: var(--color-forest);
+}
+
+/* Background Colors */
+.bg-sage {
+  background-color: var(--color-sage);
+}
+
+.bg-oak {
+  background-color: var(--color-oak);
+}
+
+.bg-stone {
+  background-color: var(--color-stone);
+}
+
+.bg-forest {
+  background-color: var(--color-forest);
+}
+
+/* Border Colors */
+.border-sage {
+  border-color: var(--color-sage);
+}
+
+.border-oak {
+  border-color: var(--color-oak);
+}
+
+.border-stone {
+  border-color: var(--color-stone);
+}
+
+.border-forest {
+  border-color: var(--color-forest);
+}
+
+/* Font Families */
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Other helpful utilities */
+
+.hover-text-forest:hover {
+  color: var(--color-forest);
+}
+
+.hover-bg-oak:hover {
+  background-color: var(--color-oak);
+}
+
+.transition-colors {
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.text-forest { color: var(--color-forest); }
+.hover-text-oak:hover { color: var(--color-oak); }
+.font-sans { font-family: var(--font-sans); }
+.transition-colors { transition: color 0.2s ease; }
+
+
+
+body {
+  background-color: var(--color-stone);
+  color: var(--color-forest);
+  font-family: var(--font-sans);
+}
+
 
 a {
   transition-property: color;
   transition-duration: 200ms;
+}
+
+@keyframes fade-slide {
+  0% {
+    opacity: 0;
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-slide {
+  animation: fade-slide 0.3s ease-out;
 }

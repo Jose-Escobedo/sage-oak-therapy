@@ -6,10 +6,11 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+      "tailwind:debug": "tailwindcss -i ./app/globals.css -o output.css --config ./tailwind.config.mjs"
+
   },
   "dependencies": {
-    "@next/font": "^14.2.15",
     "lucide-react": "^0.514.0",
     "next": "15.3.3",
     "react": "^19.0.0",
@@ -22,6 +23,8 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
     "postcss": "^8.5.5",
+    "stylelint": "^16.20.0",
+    "stylelint-config-tailwindcss": "^1.0.0",
     "tailwindcss": "^4.1.10"
   }
 }
