@@ -22,23 +22,28 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="bg-white py-16 px-6 md:px-12">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-serif font-bold mb-12 text-[#0A2540]">HOW IT WORKS</h2>
-        <div className="space-y-12">
+    <section className="bg-[#b1876e] py-16 md:py-30 px-6 md:px-12">
+      <div className="max-w-6xl mx-auto text-center">
+        <h2 className="text-xl font-serif font-bold mb-12 text-bashbright">HOW IT WORKS</h2>
+        
+        <div className="flex flex-col md:flex-row w-full md:justify-center md:items-center md:gap-x-24">
           {steps.map(({ number, title, description }) => (
-            <div key={number} className="flex flex-col items-center text-center max-w-xl mx-auto">
-              <div className="text-5xl font-bold text-bash mb-4">{number}</div>
-              <h3 className="text-2xl font-semibold mb-2 text-[#0A2540]">{title}</h3>
-              <p className="text-md text-gray-700 max-w-md">{description}</p>
+            <div
+              key={number}
+              className="flex flex-col items-center text-center mb-12 md:mb-0 md:w-1/3 px-4"
+            >
+              <div className="text-xl font-bold text-bashbright mb-4">{number}</div>
+              <h3 className="text-3xl font-semibold mb-6 text-bashbright">{title}</h3>
+              <p className="text-md text-bashbright max-w-xs">{description}</p>
             </div>
           ))}
         </div>
+
         <Link
           href="/contact"
-          className="inline-block mt-12 bg-forest text-white font-semibold text-lg px-8 py-4 rounded-full shadow-md hover:bg-forest-dark transition-colors"
+          className="inline-block mt-12 bg-forest hover-text-bashbright text-[#b1876e] font-semibold text-lg px-8 py-4 rounded-full shadow-md hover-bg-oak transition-colors"
         >
-          Book free consultation
+          BOOK FREE CONSULTATION
         </Link>
       </div>
     </section>

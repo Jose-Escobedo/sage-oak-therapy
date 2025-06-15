@@ -6,6 +6,7 @@ import MovingBanner from "@/components/MovingBanner";
 import TherapySliderSection from "@/components/TherapySliderSection";
 import MichaelaIntro from "@/components/MichaelaIntro";
 import ApproachSection from "@/components/ApproachSection";
+import HowItWorks from "@/components/HowItWorks";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
       <TherapySliderSection/>
       <MichaelaIntro />
       <ApproachSection />
+      <HowItWorks/>
       <AboutSection />
       <SpecialtiesSection />
       <CTASection />
