@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-   <header className="fixed top-0 left-0 w-full z-50 bg-bash shadow-md px-4 md:px-8 py-6 md:py-8 min-h-[96px] font-sans">
+   <header className="fixed top-0 left-0 w-full z-50 bg-bashbright shadow-md px-4 md:px-8 py-6 md:py-8 min-h-[96px] font-sans">
       <nav className="relative max-w-7xl mx-auto flex items-center justify-between h-full min-h-[96px]">
         {/* Left nav - desktop */}
         <div className="hidden md:flex space-x-6 text-lg text-forest font-sans font-medium flex-shrink-0 max-w-[220px]">

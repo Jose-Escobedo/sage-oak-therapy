@@ -32,7 +32,7 @@ export default function HeroSection() {
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-forest text-white px-6 py-3 rounded-xl font-medium shadow-md hover:bg-[#243328] transition-all duration-200"
+            className="inline-block bg-forest text-white px-6 py-3 rounded-xl font-medium shadow-md hover-bg-oak transition-all duration-200"
           >
             Book a Consultation
           </Link>
