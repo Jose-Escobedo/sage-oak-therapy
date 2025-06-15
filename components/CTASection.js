@@ -5,7 +5,7 @@ export default function CTASection() {
         Ready to begin your healing journey?
       </h2>
       <p className="text-base mb-6">
-        Take the first step today by scheduling a consultation with Michael.
+        Take the first step today by scheduling a consultation with Michaela.
       </p>
       <a
         href="/contact"
