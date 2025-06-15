@@ -9,7 +9,7 @@ import ApproachSection from "@/components/ApproachSection";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-[#FAF9F6] text-[#0A2540] font-sans">
+    <main className="min-h-screen text-[#0A2540] font-sans">
       <HeroSection />
       <MovingBanner/>
       <TherapySliderSection/>
