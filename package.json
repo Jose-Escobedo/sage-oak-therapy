@@ -7,10 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-      "tailwind:debug": "tailwindcss -i ./app/globals.css -o output.css --config ./tailwind.config.mjs"
-
+    "tailwind:debug": "tailwindcss -i ./app/globals.css -o output.css --config ./tailwind.config.mjs"
   },
   "dependencies": {
+    "embla-carousel-react": "^8.6.0",
     "lucide-react": "^0.514.0",
     "next": "15.3.3",
     "react": "^19.0.0",

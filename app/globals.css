@@ -104,6 +104,11 @@
   color: var(--color-forest);
 }
 
+
+.hover-bg-forest:hover {
+  background-color: var(--color-forest);
+}
+
 .hover-bg-oak:hover {
   background-color: var(--color-oak);
 }
