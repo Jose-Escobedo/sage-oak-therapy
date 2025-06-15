@@ -6,6 +6,7 @@
   --color-oak: #6B4F3B;
   --color-stone: #D8D8D8;
   --color-forest: #2F4033;
+  --color-bash: hsla(48.75,20%,84.31%,1);
 
   /* Fonts */
   --font-sans: 'Inter', sans-serif;
@@ -15,6 +16,10 @@
 /* Text Colors */
 .text-sage {
   color: var(--color-sage);
+}
+
+.text-bash {
+  color: var(--color-bash);
 }
 
 .text-oak {
@@ -38,6 +43,10 @@
   background-color: var(--color-oak);
 }
 
+.bg-bash {
+  background-color: var(--color-bash);
+}
+
 .bg-stone {
   background-color: var(--color-stone);
 }
@@ -53,6 +62,10 @@
 
 .border-oak {
   border-color: var(--color-oak);
+}
+
+.border-bash {
+  border-color: var(--color-bash);
 }
 
 .border-stone {

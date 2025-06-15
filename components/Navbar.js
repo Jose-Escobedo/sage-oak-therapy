@@ -9,10 +9,10 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-   <header className="fixed top-0 left-0 w-full z-50 bg-stone shadow-md px-4 md:px-8 py-6 md:py-8 min-h-[96px] font-sans">
+   <header className="fixed top-0 left-0 w-full z-50 bg-bash shadow-md px-4 md:px-8 py-6 md:py-8 min-h-[96px] font-sans">
       <nav className="relative max-w-7xl mx-auto flex items-center justify-between h-full min-h-[96px]">
         {/* Left nav - desktop */}
-        <div className="hidden md:flex space-x-6 text-forest font-sans font-medium flex-shrink-0 max-w-[220px]">
+        <div className="hidden md:flex space-x-6 text-lg text-forest font-sans font-medium flex-shrink-0 max-w-[220px]">
           <Link href="/specialties" className="hover-text-oak transition-colors whitespace-nowrap">
             Specialties
           </Link>
@@ -38,7 +38,7 @@ export default function Navbar() {
         </div>
 
         {/* Right nav - desktop */}
-        <div className="hidden md:flex font-sans text-forest font-medium justify-end flex-shrink-0 max-w-[220px]">
+        <div className="hidden md:flex font-sans text-lg text-forest font-medium justify-end flex-shrink-0 max-w-[220px]">
           <Link href="/contact" className="hover-text-oak transition-colors whitespace-nowrap">
             Contact Us
           </Link>
@@ -51,7 +51,7 @@ export default function Navbar() {
             className="text-forest"
             aria-label="Toggle menu"
           >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
+            {isOpen ? <X size={30} /> : <Menu size={30} />}
           </button>
         </div>
       </nav>
