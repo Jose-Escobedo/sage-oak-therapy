@@ -126,7 +126,7 @@ export default function TherapySliderSection() {
           <button
             onClick={scrollPrev}
             disabled={!canScrollPrev}
-            className={`p-2 rounded-full bg-white/90 hover:bg-white text-forest transition ${
+            className={`p-2 rounded-full cursor-pointer bg-white/90 hover:bg-white text-forest transition ${
               !canScrollPrev ? 'opacity-40 cursor-not-allowed' : ''
             }`}
             aria-label="Scroll left"
@@ -136,7 +136,7 @@ export default function TherapySliderSection() {
           <button
             onClick={scrollNext}
             disabled={!canScrollNext}
-            className={`p-2 rounded-full bg-white/90 hover:bg-white text-forest transition ${
+            className={`p-2 rounded-full cursor-pointer bg-white/90 hover:bg-white text-forest transition ${
               !canScrollNext ? 'opacity-40 cursor-not-allowed' : ''
             }`}
             aria-label="Scroll right"
@@ -147,7 +147,13 @@ export default function TherapySliderSection() {
       </div>
       </div>
       <div
-  className="absolute -bottom-32 -right-32 w-96 h-96 md:w-[500px] md:h-[500px] bg-neutral-900/70 rounded-full z-0 pointer-events-none"
+  className="
+    absolute 
+    -bottom-[190px] -right-[130px] 
+    md:-bottom-[650px] md:-right-[250px] 
+    w-96 h-96 md:w-[1000px] md:h-[1000px] 
+    bg-neutral-900/70 rounded-full z-0 pointer-events-none
+  "
 ></div>
     </section>
   );
