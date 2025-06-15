@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Michael Emory, LMFT | Sage Oak Therapy",
+  title: "Michaela Emory, LMFT | Sage Oak Therapy",
   description:
-    "Michael Emory is a Licensed Marriage and Family Therapist (#123456) offering compassionate therapy for individuals, couples, and families in California. Specializing in anxiety, relationships, trauma, and personal growth.",
+    "Michaela Emory is a Licensed Marriage and Family Therapist (#123456) offering compassionate therapy for individuals, couples, and families in California. Specializing in anxiety, relationships, trauma, and personal growth.",
   keywords: [
-    "Michael Emory",
+    "Michaela Emory",
     "Marriage and Family Therapist",
     "Therapist in California",
     "Sage Oak Therapy",
@@ -28,7 +28,7 @@ export const metadata = {
     "LMFT",
   ],
   openGraph: {
-    title: "Michael Emory, LMFT | Sage Oak Therapy",
+    title: "Michaela Emory, LMFT | Sage Oak Therapy",
     description:
       "Licensed Marriage and Family Therapist offering personalized care for individuals, couples, and families in California.",
     url: "",
@@ -38,7 +38,7 @@ export const metadata = {
         url: "", 
         width: 1200,
         height: 630,
-        alt: "Sage Oak Therapy - Michael Emory, LMFT",
+        alt: "Sage Oak Therapy - Michaela Emory, LMFT",
       },
     ],
     locale: "en_US",
@@ -46,9 +46,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Michael Emory, LMFT | Sage Oak Therapy",
+    title: "Michaela Emory, LMFT | Sage Oak Therapy",
     description:
-      "Compassionate therapy for individuals, couples, and families in California by Licensed Marriage and Family Therapist Michael Emory.",
+      "Compassionate therapy for individuals, couples, and families in California by Licensed Marriage and Family Therapist Michaela Emory.",
     images: [""],
   },
  

@@ -101,7 +101,7 @@ export default function TherapySliderSection() {
             {therapyCards.map((card, i) => (
               <div
                 key={i}
-                className="embla__slide bg-[hsla(33.75,53.33%,94.12%,1)] text-gray-900 rounded-2xl shadow-lg p-8 flex flex-col justify-between flex-shrink-0 w-full sm:w-[450px] min-h-[320px]"
+                className="embla__slide bg-[var(--color-bashbright))] text-gray-900 rounded-2xl shadow-lg p-8 flex flex-col justify-between flex-shrink-0 w-full sm:w-[450px] min-h-[320px]"
 
               >
                 <div>
@@ -111,7 +111,7 @@ export default function TherapySliderSection() {
               
 <Link
   href={card.link}
-  className="text-white font-medium bg-forest px-4 py-2 rounded-full hover:bg-oak transition w-max mt-2 text-sm"
+  className="hover-bg-oak text-white font-medium bg-forest px-4 py-2 rounded-full hover:bg-oak transition w-max mt-2 text-sm"
 >
   Learn more
 </Link>

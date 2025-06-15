@@ -4,6 +4,7 @@ import SpecialtiesSection from "../components/SpecialtiesSection";
 import CTASection from "../components/CTASection";
 import MovingBanner from "@/components/MovingBanner";
 import TherapySliderSection from "@/components/TherapySliderSection";
+import MichaelaIntro from "@/components/MichaelaIntro";
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       <HeroSection />
       <MovingBanner/>
       <TherapySliderSection/>
+      <MichaelaIntro />
       <AboutSection />
       <SpecialtiesSection />
       <CTASection />

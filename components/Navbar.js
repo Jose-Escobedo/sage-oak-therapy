@@ -39,9 +39,13 @@ export default function Navbar() {
 
         {/* Right nav - desktop */}
         <div className="hidden md:flex font-sans text-lg text-forest font-medium justify-end flex-shrink-0 max-w-[220px]">
-          <Link href="/contact" className="hover-text-oak transition-colors whitespace-nowrap">
-            Contact Us
-          </Link>
+          <Link
+  href="/contact"
+  className="bg-forest hover-bg-oak text-white px-4 py-2 rounded-full shadow hover:bg-oak transition-all duration-200 whitespace-nowrap"
+>
+  Contact Us
+</Link>
+
         </div>
 
         {/* Hamburger - mobile */}
