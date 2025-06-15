@@ -42,7 +42,7 @@ export default function HeroSection() {
           </h1>
           <p className="text-md md:text-xl text-gray-700 mb-8">
             Therapy tailored for individuals, couples, families, and professionals—including
-            athletes and trauma survivors. Whether you're navigating identity, relationships,
+            athletes and trauma survivors. Whether you&apos;re navigating identity, relationships,
             or healing from the past, we&apos;re here to support your path forward.
           </p>
           <Link
