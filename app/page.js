@@ -9,6 +9,7 @@ import ApproachSection from "@/components/ApproachSection";
 import HowItWorks from "@/components/HowItWorks";
 import NewsletterSignup from "@/components/NewsletterSignup";
 import KindWords from "@/components/KindWordsSection";
+import NextStepSection from "@/components/NextStepSection";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
       <HowItWorks/>
       <NewsletterSignup/>
       <KindWords/>
+      <NextStepSection/>
       <AboutSection />
       <SpecialtiesSection />
       <CTASection />

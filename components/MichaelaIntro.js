@@ -51,10 +51,10 @@ export default function MichaelaIntro() {
           </p>
           <div className="flex md:justify-start justify-center">
             <Link
-              href="/about-michaela"
+              href="/about"
               className="hover-bg-oak inline-block bg-forest text-white font-semibold px-6 py-3 rounded-full hover:bg-oak transition"
             >
-              Learn more about us
+              Learn more about me
             </Link>
           </div>
         </div>
