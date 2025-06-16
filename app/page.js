@@ -7,6 +7,7 @@ import TherapySliderSection from "@/components/TherapySliderSection";
 import MichaelaIntro from "@/components/MichaelaIntro";
 import ApproachSection from "@/components/ApproachSection";
 import HowItWorks from "@/components/HowItWorks";
+import NewsletterSignup from "@/components/NewsletterSignup";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
       <MichaelaIntro />
       <ApproachSection />
       <HowItWorks/>
+      <NewsletterSignup/>
       <AboutSection />
       <SpecialtiesSection />
       <CTASection />

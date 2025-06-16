@@ -41,7 +41,7 @@ export default function HowItWorks() {
 
         <Link
           href="/contact"
-          className="inline-block mt-12 bg-forest hover-text-bashbright text-[#b1876e] font-semibold text-lg px-8 py-4 rounded-full shadow-md hover-bg-oak transition-colors"
+          className="inline-block mt-12 bg-forest-dark hover-text-bashbright text-[#b1876e] font-semibold text-lg px-8 py-4 rounded-full shadow-md hover-bg-oak transition-colors"
         >
           BOOK FREE CONSULTATION
         </Link>
