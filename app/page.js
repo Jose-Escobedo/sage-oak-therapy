@@ -23,9 +23,6 @@ export default function HomePage() {
       <NewsletterSignup/>
       <KindWords/>
       <NextStepSection/>
-      <AboutSection />
-      <SpecialtiesSection />
-      <CTASection />
     </main>
   );
 }
