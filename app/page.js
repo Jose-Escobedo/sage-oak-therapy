@@ -8,6 +8,7 @@ import MichaelaIntro from "@/components/MichaelaIntro";
 import ApproachSection from "@/components/ApproachSection";
 import HowItWorks from "@/components/HowItWorks";
 import NewsletterSignup from "@/components/NewsletterSignup";
+import KindWords from "@/components/KindWordsSection";
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
       <ApproachSection />
       <HowItWorks/>
       <NewsletterSignup/>
+      <KindWords/>
       <AboutSection />
       <SpecialtiesSection />
       <CTASection />
