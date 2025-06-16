@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 const specialties = [
   {
@@ -54,10 +55,18 @@ const specialties = [
   },
 ];
 
+
+
 export default function Footer() {
+const pathname = usePathname();
+
+  const dividerColor =
+    pathname === '/about' ? 'bg-bashbright' : 'bg-[#b1876e]';
+
+
   return (
     <>
-      <div className="h-20 bg-[#b1876e]"></div>
+       <div className={`h-20 ${dividerColor}`}></div>
 
       <footer className="relative bg-forest pt-24 px-6 md:px-16 pb-12 mt-[-80px] rounded-t-[5rem] shadow-inner text-[#f6f4f0]">
         <div className="max-w-7xl mx-auto flex flex-col gap-y-20 md:flex-row md:justify-center md:space-x-24">

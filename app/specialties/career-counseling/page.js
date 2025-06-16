@@ -1,5 +1,6 @@
 import CareerCounselingSection from '@/components/CareerCounselingSection';
 import CareerParallax from '@/components/CareerParallax';
+import CTADisplay from '@/components/CTADisplay';
 import PageHeading from '@/components/PageHeading';
 import TwoColLayout from '@/components/TwoColLayout';
 import Link from 'next/link';
@@ -53,6 +54,24 @@ Career counseling in Los Angeles can help alleviate the emotional labor that you
 />
 <CareerParallax/>
 
+<TwoColLayout
+  title="Our Approach"
+  paragraph="Feeling stuck and stressed from work? It can feel so overwhelming that you end up avoiding work altogether. As a therapist who specializes in career counseling in Los Angeles, I can help you figure out an action-based plan so that you can manage your job with a lot more balance. In therapy with me, you will not only have someone to hold you accountable for your actions but also guide you to understand what is potentially holding you back. As your therapist, I will guide your thoughts through your earliest memories about ‘what you wanted to be when you grew up,’  your very first job, explore your relationship with money, and so much more. I lead with curiosity, and this same curiosity will allow me to get to know you better and understand you deeper. As you teach me about your life, I can adjust the skills based on your needs. "
+  ctaLabel="Work With Us"
+  ctaHref="/contact"
+  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/woman-7350740.jpg?alt=media&token=936e4a3d-2d36-49d1-95ec-4a73c79f2f47"
+  imageAlt="woman therapist sitting down"
+  imageLeft={false}
+  bgColor="bg-bashbright"
+  tubeColor="bg-forest"
+  titleColor="text-forest"
+  paragraphColor="text-[#444]"
+  buttonColor="bg-oak"
+  buttonHoverColor="hover:bg-forest"
+  buttonHoverTextColor="hover:text-white"
+  showTube={true}
+/>
+<CTADisplay/>
     </>
   );
 }
