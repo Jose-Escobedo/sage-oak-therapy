@@ -21,7 +21,7 @@ export default function NextStepSection() {
       
       <div className="w-full md:w-1/2 text-left max-w-xl">
         <h2 className="text-4xl font-serif font-bold text-bashbright mb-4">
-          Let’s take the next step together
+          Let&apos;s take the next step together
         </h2>
         <p className="text-bashbright mb-6 leading-relaxed">
           You're not meant to figure it all out alone. With the right support,
