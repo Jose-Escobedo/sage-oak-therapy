@@ -7,6 +7,7 @@
   --color-oak: #6B4F3B;
   --color-stone: #D8D8D8;
   --color-forest: #2F4033;
+  --color-greenbash: #dfdbcf;
   --color-bash: hsla(48.75,20%,84.31%,1);
   --color-bashbright: hsla(33.75,53.33%,94.12%,1);
 
@@ -40,6 +41,10 @@
   color: var(--color-forest);
 }
 
+.text-forest-dark {
+  color: var(--color-forest-dark);
+}
+
 /* Background Colors */
 .bg-sage {
   background-color: var(--color-sage);
@@ -51,6 +56,10 @@
 
 .bg-bash {
   background-color: var(--color-bash);
+}
+
+.bg-greenbash {
+  background-color: var(--color-greenbash);
 }
 
 .bg-forest-dark {
@@ -136,7 +145,7 @@
 
 
 body {
-  background-color: var(--color-stone);
+  background-color: var(--color-bashbright);
   color: var(--color-forest);
   font-family: var(--font-sans);
 }
