@@ -71,7 +71,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 border-t border-[#e0dad3]/30 pt-6 text-xs text-center text-[#f6f4f0]/80 leading-relaxed max-w-5xl mx-auto">
           <p className="mb-2 italic text-sm">
-            Healing happens in safe, supportive spaces. We’re honored to walk alongside you.
+            Healing happens in safe, supportive spaces. We&apos;re honored to walk alongside you.
           </p>
           <p>
             © Sage Oak Therapy 2025 &nbsp; | &nbsp;
