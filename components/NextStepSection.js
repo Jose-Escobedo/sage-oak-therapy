@@ -24,7 +24,7 @@ export default function NextStepSection() {
           Let&apos;s take the next step together
         </h2>
         <p className="text-bashbright mb-6 leading-relaxed">
-          You're not meant to figure it all out alone. With the right support,
+          You&apos;re not meant to figure it all out alone. With the right support,
           clarity comes, patterns shift, and life starts to feel lighter.
         </p>
         <Link
