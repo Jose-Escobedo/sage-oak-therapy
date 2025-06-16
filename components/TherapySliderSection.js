@@ -56,7 +56,7 @@ const therapyCards = [
   },
 ];
 
-export default function TherapySliderSection() {
+export default function TherapySliderSection({ showBackgroundCircle = true }) {
  const [emblaRef, embla] = useEmblaCarousel({
   align: 'start',
   containScroll: 'trimSnaps',
@@ -146,15 +146,17 @@ export default function TherapySliderSection() {
         </div>
       </div>
       </div>
-      <div
-  className="
-    absolute 
-    -bottom-[190px] -right-[130px] 
-    md:-bottom-[650px] md:-right-[250px] 
-    w-96 h-96 md:w-[1000px] md:h-[1000px] 
-    bg-neutral-900/70 rounded-full z-0 pointer-events-none
-  "
-></div>
+      {showBackgroundCircle && (
+        <div
+          className="
+            absolute 
+            -bottom-[190px] -right-[130px] 
+            md:-bottom-[650px] md:-right-[250px] 
+            w-96 h-96 md:w-[1000px] md:h-[1000px] 
+            bg-neutral-900/70 rounded-full z-0 pointer-events-none
+          "
+        />
+      )}
     </section>
   );
 }
