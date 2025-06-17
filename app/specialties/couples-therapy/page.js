@@ -19,8 +19,8 @@ export default function Specialties() {
   title="What is couples therapy?"
   paragraph={<div className="max-w-5xl mx-auto flex flex-col items-start text-left space-y-6">
         <p className="text-base md:text-lg text-bashbright leading-relaxed">
-          Relationships can bring immense joy—but they also come with challenges. Whether you've been together
-          for years or just started dating, it's normal to hit points where communication feels stuck or distant.
+          Relationships can bring immense joy—but they also come with challenges. Whether you&apos;ve been together
+          for years or just started dating, it&apos;s normal to hit points where communication feels stuck or distant.
         </p>
         <p className="text-base md:text-lg text-bashbright leading-relaxed">
           You and your partner may find yourselves repeating the same arguments or avoiding certain topics entirely,
