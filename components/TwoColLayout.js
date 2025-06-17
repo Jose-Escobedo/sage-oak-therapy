@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function TwoColLayout({
   title,
-  paragraph,
+  paragraph, // Can now be string or JSX
   ctaLabel,
   ctaHref,
   imageSrc,
@@ -22,7 +22,7 @@ export default function TwoColLayout({
 }) {
   return (
     <section className={`relative overflow-hidden py-20 px-6 md:px-12 ${bgColor}`}>
-      {/* Background tube (conditionally rendered) */}
+      {/* Background tube */}
       {showTube && (
         <div
           className={`absolute ${
@@ -56,7 +56,14 @@ export default function TwoColLayout({
           }`}
         >
           <h2 className={`text-3xl md:text-5xl font-serif font-bold ${titleColor}`}>{title}</h2>
-          <p className={`text-base md:text-md leading-relaxed ${paragraphColor}`}>{paragraph}</p>
+
+          {/* Accept string or JSX */}
+          {typeof paragraph === 'string' ? (
+            <p className={`text-base md:text-md leading-relaxed ${paragraphColor}`}>{paragraph}</p>
+          ) : (
+            <div className={`text-base md:text-md leading-relaxed ${paragraphColor}`}>{paragraph}</div>
+          )}
+
           <Link
             href={ctaHref}
             className={`mt-4 inline-block ${buttonColor} text-white px-6 py-3 rounded-full text-sm font-medium transition ${buttonHoverColor} ${buttonHoverTextColor}`}

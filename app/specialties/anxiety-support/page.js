@@ -1,4 +1,4 @@
-import CareerParallax from '@/components/CareerParallax';
+import AnxietyParallax from '@/components/AnxietyParallax';
 import CTADisplay from '@/components/CTADisplay';
 import PageHeading from '@/components/PageHeading';
 import SupportOverThinkSection from '@/components/SupportOverThinkSection';
@@ -16,61 +16,69 @@ export default function AnxietySupport() {
       />
 <SupportOverThinkSection/>
 <TwoColLayout
-  title="Find Your Career Purpose"
-  paragraph={`In career counseling, professionals get to explore their relationships with their careers. There are many reasons why someone might feel disconnected or unfulfilled in their job — whether it's burnout, a lack of purpose, or simply following a path they never actively chose.
+  title="What Anxiety Might Look or Feel Like"
+  paragraph={
+    <>
+      <p className="mb-4">You may notice:</p>
+      <ul className="list-disc pl-6 space-y-2 mb-6">
+        <li>Constant overthinking or worst-case-scenario spirals</li>
+        <li>Trouble falling or staying asleep</li>
+        <li>Muscle tension, restlessness, or tightness in your chest</li>
+        <li>A racing heart or shallow breathing</li>
+        <li>Avoidance of situations that feel too overwhelming</li>
+        <li>Feeling stuck in your own head—unable to relax or be present</li>
+        <li>Worry that you’re not doing enough, being enough, or that something bad is just around the corner</li>
+      </ul>
+      <p>
+        Even if you’ve gotten good at coping, pushing through, or appearing composed, it doesn’t mean the anxiety isn’t real. And it doesn’t mean you have to live this way forever.
+      </p>
+    </>
+  }
 
-Through career counseling in Los Angeles, you’ll begin to reconnect with your values and examine what truly matters to you in a workplace. We’ll explore your strengths, identify patterns, and highlight the skills and experiences that energize you. Whether you're early in your career, going through a professional transition, or feeling stuck in a role that no longer fits, this is a space to reflect deeply and realign.
-
-Together, we’ll work toward helping you feel more confident in your professional identity. You’ll leave with tools and insights to pursue opportunities that not only support your financial well-being, but also offer fulfillment, creativity, and growth. You deserve to feel empowered — not just at work, but in the life you're building through your work.`}
-
-  ctaLabel="Start Career Counseling"
+  ctaLabel="Book Free Consultation"
   ctaHref="/contact"
-  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_guy_lost_in_.jpeg?alt=media&token=7a665f7d-8506-4146-a827-33b712dee592"
-  imageAlt="A man lost in his career life"
+  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/man-5154583_1920.jpg?alt=media&token=2146b2fb-c60b-4f22-8fec-b73fd0497c93"
+  imageAlt="A man anxious"
   imageLeft={false}
   bgColor="bg-forest"
   tubeColor="bg-bashbright"
 />
+
+<AnxietyParallax/>
 <TwoColLayout
-  title="How can career counseling help?"
-  paragraph="Work-related stress can breed low self-esteem and lack of motivation. Now you are avoiding difficult tasks, new situations, and even conversations with coworkers because it’s too much work. Or maybe you feel like they just won’t get it.  
-
-Here, you finally get the space to just show up exactly as you are. In therapy, you get to just be. With career counseling therapy, you can also learn how to get back up and excel.
-
-Career counseling in Los Angeles can help alleviate the emotional labor that your job brings. You can learn how to have boundaries, communicate assertively, or even just release some of the tension you’re carrying through relaxation. Beyond that, you get the opportunity to understand yourself better so you can give yourself better."
+  title="Our approach to anxiety therapy in Los Angeles"
+  paragraph={
+  <div className="max-w-4xl mx-auto text-left space-y-2">
+    <p className="text-base md:text-lg text-bash leading-relaxed">
+      No two people experience anxiety the same way. What activates it, how you respond, and what you need to feel safe and supported? That’s uniquely yours—and therapy should reflect that.
+    </p>
+    <p className="text-base md:text-lg text-bash leading-relaxed">
+      This isn’t one-size-fits-all. It’s a space built around you.
+    </p>
+    <p className="text-base md:text-lg text-bash leading-relaxed">
+      We believe therapy should feel like a collaborative space where you're not being fixed—you're being met.
+    </p>
+    <p className="text-base md:text-lg text-bash leading-relaxed">
+      Our approach to anxiety treatment is evidence-based and trauma-informed, but more than that, it’s human. We work with you, not on you. We listen, reflect, challenge, and support—all with your unique story and strengths in mind.
+    </p>
+  </div>
+}
   ctaLabel="Get Started"
   ctaHref="/contact"
-  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_close_up_of_.jpeg?alt=media&token=84d618c2-8ccc-4c74-b189-cf33eb29de66"
-  imageAlt="woman holding binders"
+  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/marriage-8937363_1920.jpg?alt=media&token=37a239e9-8c49-4c98-97ff-664a7f83f12a"
+  imageAlt="man and woman therapy session"
   imageLeft={true}
-  bgColor="bg-[#fefdfb]"
-  tubeColor="bg-forest"
-  titleColor="text-forest"
-  paragraphColor="text-[#444]"
-  buttonColor="bg-oak"
-  buttonHoverColor="hover:bg-forest"
-  buttonHoverTextColor="hover:text-white"
-  showTube={false}
-/>
-<CareerParallax/>
-
-<TwoColLayout
-  title="Our Approach"
-  paragraph="Feeling stuck and stressed from work? It can feel so overwhelming that you end up avoiding work altogether. As a therapist who specializes in career counseling in Los Angeles, I can help you figure out an action-based plan so that you can manage your job with a lot more balance. In therapy with me, you will not only have someone to hold you accountable for your actions but also guide you to understand what is potentially holding you back. As your therapist, I will guide your thoughts through your earliest memories about ‘what you wanted to be when you grew up,’  your very first job, explore your relationship with money, and so much more. I lead with curiosity, and this same curiosity will allow me to get to know you better and understand you deeper. As you teach me about your life, I can adjust the skills based on your needs. "
-  ctaLabel="Work With Us"
-  ctaHref="/contact"
-  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/woman-7350740.jpg?alt=media&token=936e4a3d-2d36-49d1-95ec-4a73c79f2f47"
-  imageAlt="woman therapist sitting down"
-  imageLeft={false}
-  bgColor="bg-bashbright"
-  tubeColor="bg-forest"
-  titleColor="text-forest"
-  paragraphColor="text-[#444]"
+  bgColor="bg-forest"
+  tubeColor="bg-stone"
+  titleColor="text-bashbright"
+  paragraphColor="text-bashbright"
   buttonColor="bg-oak"
   buttonHoverColor="hover:bg-forest"
   buttonHoverTextColor="hover:text-white"
   showTube={true}
 />
+
+
 <CTADisplay/>
     </>
   );
