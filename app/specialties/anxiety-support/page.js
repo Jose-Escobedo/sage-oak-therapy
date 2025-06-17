@@ -27,10 +27,10 @@ export default function AnxietySupport() {
         <li>A racing heart or shallow breathing</li>
         <li>Avoidance of situations that feel too overwhelming</li>
         <li>Feeling stuck in your own head—unable to relax or be present</li>
-        <li>Worry that you’re not doing enough, being enough, or that something bad is just around the corner</li>
+        <li>Worry that you&apos;re not doing enough, being enough, or that something bad is just around the corner</li>
       </ul>
       <p>
-        Even if you’ve gotten good at coping, pushing through, or appearing composed, it doesn’t mean the anxiety isn’t real. And it doesn’t mean you have to live this way forever.
+        Even if you&apos;ve gotten good at coping, pushing through, or appearing composed, it doesn&apos;t mean the anxiety isn&apos;t real. And it doesn&apos;t mean you have to live this way forever.
       </p>
     </>
   }
@@ -50,16 +50,16 @@ export default function AnxietySupport() {
   paragraph={
   <div className="max-w-4xl mx-auto text-left space-y-2">
     <p className="text-base md:text-lg text-bash leading-relaxed">
-      No two people experience anxiety the same way. What activates it, how you respond, and what you need to feel safe and supported? That’s uniquely yours—and therapy should reflect that.
+      No two people experience anxiety the same way. What activates it, how you respond, and what you need to feel safe and supported? That&apos;s uniquely yours—and therapy should reflect that.
     </p>
     <p className="text-base md:text-lg text-bash leading-relaxed">
-      This isn’t one-size-fits-all. It’s a space built around you.
+      This isn&apos;t one-size-fits-all. It&apos;s a space built around you.
     </p>
     <p className="text-base md:text-lg text-bash leading-relaxed">
       We believe therapy should feel like a collaborative space where you're not being fixed—you're being met.
     </p>
     <p className="text-base md:text-lg text-bash leading-relaxed">
-      Our approach to anxiety treatment is evidence-based and trauma-informed, but more than that, it’s human. We work with you, not on you. We listen, reflect, challenge, and support—all with your unique story and strengths in mind.
+      Our approach to anxiety treatment is evidence-based and trauma-informed, but more than that, it&apos;s human. We work with you, not on you. We listen, reflect, challenge, and support—all with your unique story and strengths in mind.
     </p>
   </div>
 }
