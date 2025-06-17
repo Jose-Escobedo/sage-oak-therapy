@@ -56,7 +56,7 @@ export default function AnxietySupport() {
       This isn&apos;t one-size-fits-all. It&apos;s a space built around you.
     </p>
     <p className="text-base md:text-lg text-bash leading-relaxed">
-      We believe therapy should feel like a collaborative space where you're not being fixed—you're being met.
+      We believe therapy should feel like a collaborative space where you&apos;re not being fixed—you&apos;re being met.
     </p>
     <p className="text-base md:text-lg text-bash leading-relaxed">
       Our approach to anxiety treatment is evidence-based and trauma-informed, but more than that, it&apos;s human. We work with you, not on you. We listen, reflect, challenge, and support—all with your unique story and strengths in mind.
