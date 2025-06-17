@@ -6,6 +6,12 @@ import { usePathname } from 'next/navigation';
 
 const specialties = [
   {
+    title: 'Anxiety Support',
+    description:
+      'Tools and support to manage anxiety, build resilience, and find emotional balance.',
+    link: '/specialties/anxiety-support',
+  },
+  {
     title: 'Career Counseling',
     description:
       'Support to align your work with personal values and pursue meaningful goals with clarity.',
@@ -17,12 +23,7 @@ const specialties = [
       'Strengthen communication, navigate challenges, and deepen connection in your relationship.',
     link: '/specialties/couples-therapy',
   },
-  {
-    title: 'Anxiety Support',
-    description:
-      'Tools and support to manage anxiety, build resilience, and find emotional balance.',
-    link: '/specialties/anxiety-support',
-  },
+  
   {
     title: 'Life Transitions',
     description:

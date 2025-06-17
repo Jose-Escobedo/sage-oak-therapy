@@ -10,9 +10,9 @@ export default function Navbar() {
   const [specialtiesOpen, setSpecialtiesOpen] = useState(false);
 
   const specialties = [
+  { label: 'Anxiety Support', href: '/specialties/anxiety-support' },
   { label: 'Career Counseling', href: '/specialties/career-counseling' },
   { label: 'Couples Therapy', href: '/specialties/couples-therapy' },
-  { label: 'Anxiety Support', href: '/specialties/anxiety-support' },
   { label: 'Life Transitions', href: '/specialties/life-transitions' },
   { label: 'Self-Esteem', href: '/specialties/self-esteem' },
   { label: 'Family Therapy', href: '/specialties/family-therapy' },

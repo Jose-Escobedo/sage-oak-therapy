@@ -51,14 +51,14 @@ export default function AnxietyParallax() {
           <li>Work, Career, and Leadership Anxiety</li>
           <li>Anxiety in College Students & Young Adults</li>
           <li>Anxiety in Athletes</li>
-          <li>Chronic Worry & “Worst-Case Scenario” Thinking</li>
+          <li>Chronic Worry & &apos;Worst-Case Scenario&apos; Thinking</li>
           <li>First-generation professionals & caregivers under pressure</li>
           <li>BIPOC, LGBTQIA+, and Neurodivergent clients</li>
         </ul>
         <p className="text-sm md:text-md leading-relaxed">
-          We know anxiety often shows up in nuanced ways—especially when you’re navigating
+          We know anxiety often shows up in nuanced ways—especially when you&apos;re navigating
           layered identities or high expectations. Our therapy meets you where you are and
-          helps you make space for who you're becoming.
+          helps you make space for who you&apos;re becoming.
         </p>
         <div className="text-center">
           <Link
