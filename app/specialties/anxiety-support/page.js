@@ -65,8 +65,8 @@ export default function AnxietySupport() {
 }
   ctaLabel="Get Started"
   ctaHref="/contact"
-  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/marriage-8937363_1920.jpg?alt=media&token=37a239e9-8c49-4c98-97ff-664a7f83f12a"
-  imageAlt="man and woman therapy session"
+  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/desperate-5011953_1920.jpg?alt=media&token=a224805d-c968-48dc-b4d2-71c135b45104"
+  imageAlt="anxious man"
   imageLeft={true}
   bgColor="bg-forest"
   tubeColor="bg-stone"

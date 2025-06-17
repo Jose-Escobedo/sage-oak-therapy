@@ -53,8 +53,8 @@ export default function Specialties() {
   paragraph="Each session is 50 minutes long. Our first session will be getting to know the relationship. The following two sessions will be individual therapy for each partner. I like to get a history of the relationship, then establish your goals. The next couple of sessions will also include education and skill-building. "
   ctaLabel="Work With Us"
   ctaHref="/contact"
-  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/couple-6704262_1920.jpg?alt=media&token=717947ef-1768-4a75-9c73-c129c5035f8b"
-  imageAlt="woman therapist sitting down"
+  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/marriage-8937363_1920.jpg?alt=media&token=37a239e9-8c49-4c98-97ff-664a7f83f12a"
+  imageAlt="couple in therapy"
   imageLeft={false}
   bgColor="bg-bashbright"
   tubeColor="bg-forest"
