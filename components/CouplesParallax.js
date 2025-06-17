@@ -46,10 +46,10 @@ export default function CouplesParallax() {
         <p className="text-sm md:text-md leading-relaxed text-center">
           Relationships can be incredibly rewarding—but they can also be challenging. Over time, miscommunication,
           unmet needs, or recurring arguments can leave partners feeling distant, frustrated, or disconnected. 
-          Couples therapy offers a space to slow down and reconnect. It's a place where both partners can feel heard, 
+          Couples therapy offers a space to slow down and reconnect. It&apos;s a place where both partners can feel heard, 
           understood, and supported while learning tools to communicate more effectively and rebuild trust.
           <br /><br />
-          Whether you're facing a major life transition or simply want to strengthen your connection,
+          Whether you&apos;re facing a major life transition or simply want to strengthen your connection,
           therapy can help you and your partner grow together and create a more secure, fulfilling relationship.
         </p>
       </div>
