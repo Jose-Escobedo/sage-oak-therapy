@@ -122,6 +122,15 @@
   color: var(--color-bashbright);
 }
 
+.hover-text-oak:hover {
+  color: var(--color-oak);
+}
+
+.hover-text-sage:hover {
+  color: var(--color-sage);
+}
+
+
 
 .hover-bg-forest:hover {
   background-color: var(--color-forest);
