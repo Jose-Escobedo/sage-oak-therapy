@@ -29,7 +29,9 @@ export default function Navbar() {
 <div className="relative group bg-bashbright">
  
   <div className="flex items-center gap-1 hover-text-oak transition-colors whitespace-nowrap cursor-pointer">
-    <span>Specialties</span>
+    <Link href="/specialties" className="hover-text-oak transition-colors whitespace-nowrap">
+            Specialties
+    </Link>
     <ChevronDown size={18} className="mt-[1px]" />
   </div>
 
@@ -104,7 +106,9 @@ export default function Navbar() {
               onClick={() => setSpecialtiesOpen(!specialtiesOpen)}
               className="flex items-center justify-center gap-1 w-full hover:text-oak text-lg"
             >
-              Specialties
+              <Link href="/specialties" className="hover-text-oak transition-colors whitespace-nowrap">
+            Specialties
+    </Link>
               <ChevronDown size={18} />
             </button>
             {specialtiesOpen && (
