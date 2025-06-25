@@ -1,6 +1,8 @@
 import TwoColLayout from '@/components/TwoColLayout';
 import Link from 'next/link';
 import TherapySliderSection from './TherapySliderSection';
+import MovingBannerLarge from './MovingBannerLarge';
+import FAQSection from './FAQSection';
 
 export default function Specialties() {
   return (
@@ -33,8 +35,10 @@ export default function Specialties() {
   bgColor="bg-forest"
   tubeColor="bg-bashbright"
 />
+<MovingBannerLarge/>
 
 <TherapySliderSection/>
+<FAQSection/>
     </>
   );
 }
