@@ -60,9 +60,9 @@ const specialties = [
 
 export default function Footer() {
 const pathname = usePathname();
+const dividerColor =
+  pathname === '/about' || pathname === '/blog' ? 'bg-bashbright' : 'bg-[#b1876e]';
 
-  const dividerColor =
-    pathname === '/about' ? 'bg-bashbright' : 'bg-[#b1876e]';
 
 
   return (
