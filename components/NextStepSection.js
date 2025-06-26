@@ -9,10 +9,10 @@ export default function NextStepSection() {
       
       <div className="w-full md:w-1/2 relative min-h-[300px] md:min-h-[500px] rounded-3xl overflow-hidden shadow-lg">
         <Image
-          src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/1750036785437ry7bu1cq%20(1).png?alt=media&token=1e5de77d-a135-47c5-9a57-442a375b3ff1"
+          src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pexels-sandro-tavares-260503371-17489837.jpg?alt=media&token=a484c925-c64d-4757-b951-c7330cae7fcb"
           alt="Therapy support"
           fill
-          className="object-cover object-top"
+          className="object-cover"
           sizes="(min-width: 768px) 50vw, 100vw"
           priority
         />

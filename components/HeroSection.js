@@ -27,7 +27,7 @@ export default function HeroSection() {
         {/* Left - Image */}
         <div className="flex-shrink-0">
           <Image
-            src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_woman_Licens.jpeg?alt=media&token=c7dbb4cf-f806-44fb-8c1a-fdbc327a50dc"
+            src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pexels-sandro-tavares-260503371-13375849.jpg?alt=media&token=a513a92a-b689-44fa-87ab-29d5d0999599"
             alt="Therapist"
             width={300}
             height={300}

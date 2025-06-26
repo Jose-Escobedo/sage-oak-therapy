@@ -29,8 +29,8 @@ export default function Specialties() {
 
   ctaLabel="Work With Us"
   ctaHref="/contact"
-  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/A_casual_photo_of_woman_therap.jpeg?alt=media&token=1063a293-e38b-4bcf-88a1-9793211a5e98"
-  imageAlt="A couple"
+  imageSrc="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pexels-sandro-tavares-260503371-13375849.jpg?alt=media&token=a513a92a-b689-44fa-87ab-29d5d0999599"
+  imageAlt="A portrait of michaela"
   imageLeft={false}
   bgColor="bg-forest"
   tubeColor="bg-bashbright"

@@ -63,7 +63,7 @@ export default function MichaelaIntro() {
         <div className="md:w-1/2 flex justify-center md:justify-center">
   <div className="relative w-64 h-80 md:w-80 md:h-[600px] rounded-2xl md:rounded-3xl overflow-hidden shadow-lg transition-transform duration-1000">
     <Image
-      src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/woman_brunette_brown_hair_Lice.jpeg?alt=media&token=6e68d152-998f-4aac-ab61-ca23a083d4d7" 
+      src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pexels-sandro-tavares-260503371-13375850.jpg?alt=media&token=3cde9a34-4d48-4c7e-89a2-8b2233adfd5c" 
       alt="Portrait of Michaela"
       fill
       className="object-cover"
